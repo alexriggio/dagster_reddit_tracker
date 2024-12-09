@@ -1,0 +1,26 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.eggs/
+
+# Environment files
+.env
+
+# Virtual environment
+env/
+venv/
+
+# Dagster local files
+.dagster/
+
+# Database
+data/staging/*.duckdb
+
+# Logs and reports
+logs/
+*.log
+*.pdf
+
+# Ignore all folders starting with "tmp"
+tmp*/
